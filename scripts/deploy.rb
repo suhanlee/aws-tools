@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 require 'thor'
 
 DEFAULT_COMMAND_NAME = "deploy.rb"
