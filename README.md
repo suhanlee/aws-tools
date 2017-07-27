@@ -2,6 +2,7 @@
 aws custom tools
 
 ## deploy.rb
+### 1. download
 ```bash
 $ curl -sSL https://raw.githubusercontent.com/suhanlee/aws-tools/master/scripts/deploy.rb > deploy.rb
 $ ruby deploy.rb ssh web
@@ -19,4 +20,17 @@ Last login: Thu Jul 27 17:49:36 2017 from 175.223.30.65
 https://aws.amazon.com/amazon-linux-ami/2017.03-release-notes/
 No packages needed for security; 3 packages available
 Run "sudo yum update" to apply all updates.
+```
+### 2. deploy
+```bash
+$ ruby deploy.rb deploy web
+```
+### 3. ssh
+```bash
+$ ruby deploy.rb ssh web
+```
+
+### 4. logs
+```bash
+$ ruby deploy.rb logs web
 ```
